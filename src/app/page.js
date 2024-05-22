@@ -25,10 +25,12 @@ export default function Home() {
   return (
     <div>
       {/* Göktuğ */}
-      <Header />
+      <div className="bg-[url(/frames/athletic-womanin.png)] bg-cover bg-bottom min-h-screen">
+        <Header />
 
-      {/* Göktuğ */}
-      <Introduction />
+        {/* Göktuğ */}
+        <Introduction />
+      </div>
 
       {/* Faruk */}
       <Contents />

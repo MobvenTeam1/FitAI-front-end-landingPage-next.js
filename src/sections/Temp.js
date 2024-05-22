@@ -2,6 +2,6 @@ import React from 'react'
 
 export default function Temp() {
   return (
-    <div>Temp</div>
+    <div className='bg-black'>Temp</div>
   )
 }
