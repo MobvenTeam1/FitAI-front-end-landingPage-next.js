@@ -3,7 +3,7 @@ import React from "react";
 export default function Introduction() {
   return (
     <div className="min-h-[88vh] flex flex-col gap-8 items-center justify-center">
-      <div className="flex flex-col gap">
+      <div className="flex flex-col gap-3">
         <div className="flex items-center gap-4 text-white text-xl font-bold">
           <p>Sağlıklı Yaşam Koçu</p>
           <p>.</p>
