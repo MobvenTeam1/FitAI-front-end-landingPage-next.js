@@ -6,7 +6,7 @@ import Header from "@/sections/Header";
 import Introduction from "@/sections/Introduction";
 import Questions from "@/sections/Questions";
 import Reviews from "@/sections/Reviews";
-import Temp from "@/sections/Temp";
+import Abstract from "@/sections/Abstract";
 import Upcomings from "@/sections/Upcomings";
 
 import Image from "next/image";
@@ -35,7 +35,7 @@ export default function Home() {
       {/* Faruk */}
       <Contents />
 
-      <Temp />
+      <Abstract />
 
       {/* Göktuğ */}
       <Reviews />

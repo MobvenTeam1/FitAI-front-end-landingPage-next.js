@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function Temp() {
+export default function Abstract() {
   return (
     <div className='bg-black'>Temp</div>
   )
