@@ -83,11 +83,11 @@ export default function Reviews() {
   };
 
   return (
-    <div className="container mx-auto min-h-screen flex flex-col gap-16 items-center justify-center">
-      <h3 className="text-5xl max-w-2xl text-center font-bold">
+    <div className="container mx-auto min-h-screen flex flex-col gap-16 items-center justify-center max-sm:py-12">
+      <h3 className="text-5xl max-w-2xl text-center font-bold max-sm:text-3xl max-sm:px-8">
         Dükkanlardaki Kullanıcı Yorumlarımız
       </h3>
-      <div className="flex items-center justify-between gap-40">
+      <div className="flex items-center justify-between gap-40 max-sm:gap-4">
         <button
           className={`${
             !(step === 0) ? "!bg-gray-800" : "!bg-gray-200"
@@ -108,7 +108,7 @@ export default function Reviews() {
           <ArrowIcon direction="right" />
         </button>
       </div>
-      <div className="flex items-center gap-3 mt-12">
+      <div className="flex items-center gap-3 mt-12 max-sm:mt-4">
         {[...Array(4)].map((_, i) => (
           <div
             key={i}
