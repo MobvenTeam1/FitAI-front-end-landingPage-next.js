@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import { useState } from "react";
 
 export const Accordion = ({ items }) => {
@@ -23,7 +24,13 @@ export const Accordion = ({ items }) => {
           className="cursor-pointer flex justify-between items-center max-sm:gap-8"
         >
           <p className="font-bold text-2xl max-sm:text-xl">{item.title}</p>
-          <span>{active ? "-" : "+"}</span>
+          <Image
+            src={`/icons/ic_arrow_${!active ? "down" : "up"}.svg`}
+            alt="Next.js Logo"
+            width={32}
+            height={32}
+            priority
+          />
         </div>
         <div
           className={`${
