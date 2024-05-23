@@ -6,7 +6,7 @@ export default function Header() {
       <Image
         src="/logo.svg"
         alt="Vercel Logo"
-        className="object-cover max-sm:w-16 h-4"
+        className="object-cover max-sm:w-16 max-sm:h-4"
         width={137}
         height={54}
         priority
