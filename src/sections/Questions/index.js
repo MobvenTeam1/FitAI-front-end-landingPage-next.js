@@ -7,7 +7,7 @@ export default function Questions() {
         <h3 className="text-5xl font-bold max-sm:text-3xl">Sıkça Sorulan Sorular</h3>
         <p className="text-2xl max-sm:text-lg">
           Hala yardıma ihtiyacınız var mı?{"  "}
-          <span className="font-bold text-green-800 underline">
+          <span className="font-bold text-christi underline">
             Şimdi Yardım Alın
           </span>
         </p>

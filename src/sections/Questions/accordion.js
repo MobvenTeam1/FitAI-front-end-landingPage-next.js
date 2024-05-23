@@ -11,13 +11,11 @@ export const Accordion = ({ items }) => {
   const renderedItems = items.map((item, index) => {
     const active = index === activeIndex ? "show" : "";
 
-
-
     return (
       <div
         key={item.title}
-        className={`flex flex-col gap-4 border-b border-gray-200 rounded-2xl py-6 px-8 max-sm:px-4 max-sm:py-4 mb-2 ${
-          active && "bg-gray-500"
+        className={`flex flex-col gap-4 border-b border-gray-200 rounded-2xl py-6 px-8 max-sm:px-4 max-sm:py-4 mb-2 transition-all duration-500 ease-in-out ${
+          active && "bg-mercury"
         }`}
       >
         <div
@@ -28,7 +26,9 @@ export const Accordion = ({ items }) => {
           <span>{active ? "-" : "+"}</span>
         </div>
         <div
-          className={`${active ? "block" : "hidden"} text-base text-gray-400`}
+          className={`${
+            active ? "block" : "hidden"
+          } text-base text-doveGray transition-all duration-500 ease-in-out`}
         >
           {item.content}
         </div>
