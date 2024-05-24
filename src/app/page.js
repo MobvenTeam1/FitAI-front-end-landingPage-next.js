@@ -1,3 +1,4 @@
+import Abstract from "@/sections/Abstarct";
 import Blog from "@/sections/Blog";
 import Contents from "@/sections/Contents";
 import Displaying from "@/sections/Displaying";
@@ -6,10 +7,10 @@ import Header from "@/sections/Header";
 import Introduction from "@/sections/Introduction";
 import Questions from "@/sections/Questions";
 import Reviews from "@/sections/Reviews";
-import Abstract from "@/sections/Abstract";
+
 import Upcomings from "@/sections/Upcomings";
 
-import Image from "next/image";
+// import Image from "next/image";
 {
   /* <Image
 className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
