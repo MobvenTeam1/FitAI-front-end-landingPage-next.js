@@ -1,3 +1,4 @@
+import Abstract from "@/sections/Abstarct";
 import Blog from "@/sections/Blog";
 import Contents from "@/sections/Contents";
 import Displaying from "@/sections/Displaying";
@@ -6,11 +7,16 @@ import Header from "@/sections/Header";
 import Introduction from "@/sections/Introduction";
 import Questions from "@/sections/Questions";
 import Reviews from "@/sections/Reviews";
-import Temp from "@/sections/Temp";
-import Upcomings from "@/sections/Upcomings";
-import '../app/globals.css'
-import Image from "next/image";
 
+import Upcomings from "@/sections/Upcomings";
+// <<<<<<< features-goktug
+
+// // import Image from "next/image";
+// =======
+// import '../app/globals.css'
+// import Image from "next/image";
+
+// >>>>>>> test
 {
   /* <Image
 className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
@@ -25,16 +31,25 @@ priority
 export default function Home() {
   return (
     <div>
-      {/* Göktuğ */}
-      <Header />
+//       {/* Göktuğ */}
+// <<<<<<< features-goktug
+//       <div className="bg-[url(/frames/athletic-womanin.png)] bg-cover bg-bottom min-h-screen">
+//         <Header />
+
+//         {/* Göktuğ */}
+//         <Introduction />
+//       </div>
+// =======
+//       <Header />
       
-      {/* Göktuğ */}
-      <Introduction />
+//       {/* Göktuğ */}
+//       <Introduction />
+// >>>>>>> test
 
       {/* Faruk */}
       <Contents />
 
-      <Temp />
+      <Abstract />
 
       {/* Göktuğ */}
       <Reviews />
