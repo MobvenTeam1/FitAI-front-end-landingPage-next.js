@@ -39,11 +39,13 @@ export default function Blog() {
       </p>
       <div className="flex justify-center items-center gap-12 max-sm:flex-col max-sm:gap-16">
         {cardContent.map((content) => (
-          <BlogCard key={content.id} {...content} />
+          <BlogCard key={content.id} content={content} />
         ))}
       </div>
       <div className="flex justify-center items-center gap-2">
-        <p className="font-bold text-xl max-sm:text-lg text-doveGray">View More</p>
+        <p className="font-bold text-xl max-sm:text-lg text-doveGray">
+          View More
+        </p>
         <Image
           src="/blog-svg/next-icon.svg"
           alt="next-icon"
