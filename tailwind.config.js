@@ -22,6 +22,14 @@ module.exports = {
         sanMarino: "#4E65B6",
       },
     },
+    colors: {
+      'black-coral': '#545971',
+      'cultured': '#F3F5F9',
+      'dove-gray': '#707070',
+      'mercury': '#E7E7E7',
+      'silver': '#CBCBCB',
+      'white': '#ffffff'
+    }
   },
   plugins: [],
 };
