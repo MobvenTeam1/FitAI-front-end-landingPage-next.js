@@ -20,16 +20,19 @@ module.exports = {
         mineShaft: "#414141",
         santasGray: "#9EA3B5",
         sanMarino: "#4E65B6",
+        cultured : "#F3F5F9",
+        blackCoral: "#545971",
+        doveGray: "#707070",
       },
     },
-    colors: {
-      'black-coral': '#545971',
-      'cultured': '#F3F5F9',
-      'dove-gray': '#707070',
-      'mercury': '#E7E7E7',
-      'silver': '#CBCBCB',
-      'white': '#ffffff'
-    }
+    // colors: {
+    //   'black-coral': '#545971',
+    //   'cultured': '#F3F5F9',
+    //   'dove-gray': '#707070',
+    //   'mercury': '#E7E7E7',
+    //   'silver': '#CBCBCB',
+    //   'white': '#ffffff'
+    // }
   },
   plugins: [],
 };

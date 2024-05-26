@@ -83,7 +83,7 @@ export default function Reviews() {
   };
 
   return (
-    <div className="container mx-auto min-h-screen flex flex-col gap-16 items-center justify-center max-sm:py-12">
+    <div className="container mx-auto min-h-screen flex flex-col gap-16 items-center justify-center max-sm:py-12 max-sm:px-6">
       <h3 className="text-5xl max-w-2xl text-center font-bold max-sm:text-3xl max-sm:px-8">
         Dükkanlardaki Kullanıcı Yorumlarımız
       </h3>
