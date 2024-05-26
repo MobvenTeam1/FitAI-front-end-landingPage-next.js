@@ -1,5 +1,5 @@
 import React from "react";
-import UpcomingCard from "@/components/UpcomingCard";
+import UpcomingCard from "@/sections/Upcoming/UpcomingCard";
 
 const cardData = [
   {

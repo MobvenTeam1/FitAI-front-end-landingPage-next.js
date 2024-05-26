@@ -7,8 +7,7 @@ import Header from "@/sections/Header";
 import Introduction from "@/sections/Introduction";
 import Questions from "@/sections/Questions";
 import Reviews from "@/sections/Reviews";
-
-import Upcomings from "@/sections/Upcomings";
+import Upcomings from "@/sections/Upcoming";
 
 export default function Home() {
   return (
