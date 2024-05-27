@@ -1,6 +1,6 @@
 ## Live Preview
 
-You can see the live preview [here](https://melodic-chimera-2cf7e3.netlify.app/)
+You can see the live preview [here](https://fit-ai-landing-page-mobven.netlify.app/)
 
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
