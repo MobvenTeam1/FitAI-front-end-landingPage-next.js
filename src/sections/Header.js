@@ -18,8 +18,14 @@ export default function Header() {
         <p>İletişim</p>
       </div>
 
-      <button className="bg-white font-bold text-xl text-black px-4 py-2 rounded-3xl max-sm:text-sm max-sm:p-2">
-        Giriş Yap
+      <button className="bg-[#B1EB04] text-lg font-bold text-black px-5 py-4 rounded-lg max-sm:text-sm max-sm:p-2">
+        <a
+          href="https://fit-ai-app-mobven.netlify.app/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Giriş Yap
+        </a>
       </button>
     </div>
   );
