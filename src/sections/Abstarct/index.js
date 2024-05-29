@@ -30,7 +30,7 @@ export default function Abstract() {
   ];
 
   return (
-    <div className="bg-mineShaft">
+    <div className="bg-mineShaft py-56">
       <div className="container mx-auto flex flex-col gap-14 justify-center min-h-screen max-sm:h-full max-sm:py-12 max-sm:px-4 max-sm:gap-8">
         <div className="flex items-center justify-between max-sm:flex-col max-sm:gap-4">
           <h3 className="text-5xl font-bold text-white max-w-lg max-sm:text-3xl">

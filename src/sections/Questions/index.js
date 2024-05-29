@@ -2,7 +2,7 @@ import { Accordion } from "./accordion";
 
 export default function Questions() {
   return (
-    <div className="container mx-auto min-h-screen grid grid-cols-12 items-center gap-28 max-sm:gap-0 max-sm:px-6 max-sm:min-h-full max-sm:py-20">
+    <div className="container mx-auto py-48 min-h-screen grid grid-cols-12 items-center gap-28 max-sm:gap-0 max-sm:px-6 max-sm:min-h-full max-sm:py-20">
       <div className="col-span-4 flex flex-col gap-6 max-sm:col-span-12 max-sm:gap-3">
         <h3 className="text-5xl font-bold max-sm:text-3xl">
           Sıkça Sorulan Sorular

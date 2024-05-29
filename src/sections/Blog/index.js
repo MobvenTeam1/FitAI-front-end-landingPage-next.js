@@ -33,7 +33,7 @@ export default function Blog() {
   ];
 
   return (
-    <div className="container mx-auto min-h-screen flex flex-col justify-center items-center gap-14 max-sm:gap-8 max-sm:px-6 max-sm:py-6">
+    <div className="container mx-auto py-32 min-h-screen flex flex-col justify-center items-center gap-14 max-sm:gap-8 max-sm:px-6 max-sm:py-6">
       <p className="text-black text-center font-bold text-5xl max-sm:text-3xl">
         Blog Yazılarımızı Keşfedin
       </p>

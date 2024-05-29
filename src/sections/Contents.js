@@ -23,9 +23,11 @@ export default function Contents() {
   ];
 
   return (
-    <div className="h-screen flex flex-col justify-center items-start mx-56 my-28">
+    <div className="container mx-auto h-min-screen flex flex-col justify-center items-start py-60">
       <p className="text-5xl font-bold">Kişiselleştirilmiş sağlık koçunuzla</p>
-      <p className="text-5xl font-bold">hedeflerinize ulaşmanın en kolay yolu</p>
+      <p className="text-5xl font-bold">
+        hedeflerinize ulaşmanın en kolay yolu
+      </p>
       <p className="text-lg mt-6 text-blackCoral">
         Lorem ipsum dolor sit amet consectetur. Nulla faucibus viverra nunc
         netus felis. Tortor faucibus in sodales donec dui tortor
@@ -38,11 +40,9 @@ export default function Contents() {
         {cardData.map((card, index) => (
           <div
             key={index}
-            className={`p-10 bg-cover flex flex-col gap-4 justify-end rounded-xl m-4`}
+            className={`p-10 pt-96 bg-cover flex flex-col gap-4 justify-end m-4 rounded-3xl`}
             style={{
               backgroundImage: `url('/content-svg/${card.img}.svg')`,
-              height: 700,
-              borderRadius: 36,
             }}
           >
             <p className="font-bold text-cultured text-2xl">{card.title}</p>
