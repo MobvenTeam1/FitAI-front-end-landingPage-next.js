@@ -13,6 +13,9 @@ module.exports = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      fontFamily: {
+        sans: ["Urbanist", "sans-serif"],
+      },
       colors: {
         mercury: "#E1E1E1",
         doveGray: "#737373",
